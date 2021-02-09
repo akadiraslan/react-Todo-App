@@ -1,19 +1,26 @@
+/*
+1- form group yanında ekle butonu
+2- tablo şeklinde eklenen todolar
+3- 
+*/
+
 import React from "react";
 import "./style.css";
 
-class App extends React.Component {
-  constructor() {
-    super();
+class App extends React.Component{
+  constructor(){
+    super()
   }
-
-  render() {
-    return (
+  
+  render(){
+    return(
       <div>
-        <h1>Hello StackBlitz!</h1>
-        <p>Start editing to see some magic happen :)</p>
       </div>
-    );
+    )
   }
 }
+
+
+
 
 export default App;
