@@ -6,21 +6,20 @@
 
 import React from "react";
 import "./style.css";
+import Header from "./Header"
 
-class App extends React.Component{
-  constructor(){
-    super()
+class App extends React.Component {
+  constructor() {
+    super();
   }
-  
-  render(){
-    return(
+
+  render() {
+    return (
       <div>
+      <Header/>
       </div>
-    )
+    );
   }
 }
-
-
-
 
 export default App;
